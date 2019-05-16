@@ -1,0 +1,107 @@
+// output:contact.css,compress:true;
+@blue:#004986;
+@gray:#ebece6;
+div.header {
+  background:url(../imgs/svc_header.jpg) center/cover no-repeat;
+  height:50vh;
+  overflow: hidden;
+  div.headerBg {
+    display: flex;
+  
+    .header_logo {
+      width:50%;
+      text-align:left;
+      img {
+        margin-top:1px;
+        width:370px;
+      }
+    }
+    .header_menu {
+      padding-top:1rem;
+      width:50%;
+    }
+  }
+}
+.input {
+  background:#ebebeb;
+  border:none;
+  padding:.3em;
+  width:40%;
+  min-width:370px;
+  max-width:500px;
+}
+.focusInput {
+  background:#cff8fc;
+  border-bottom:2px solid #6ea1e5;
+}
+.warnInput {
+  background:#f7b1b1;
+  border-bottom:2px solid #b10606;
+}
+.article1 {
+  div {
+    margin-bottom:.5em;
+  }
+  span.warn {
+    font-size:.6rem;
+    background-color:#c41515;
+    color:#fff;
+    padding:1px 2px;
+    margin-right:2px;
+  }
+}
+textarea {
+  width:450px;
+  height:300px;
+}
+button {
+  color:#fff;
+  width:120px;
+  background:#004986;
+  padding:.3em;
+  border-radius: 8px;
+  border:none;
+  transition:all .5s;
+}
+button:hover {
+  background:lighten(#004986,20%);
+}
+div.thanx {
+  display: none;
+  padding-top:3rem;
+  height:30vh;
+  text-align: center;
+  h3 {
+    font-family:'Parisienne',cursive;
+    font-size:2rem;
+    height:10vh;
+  }
+}
+div.footer {
+  background:@blue;
+  background-attachment:local;
+  height:250px;
+  width:100%;
+  text-align:center;
+  
+  div.footerbox {
+    font-size:.8em;
+    padding-top:3em;
+    width:100%;
+    img {
+      width:60%;
+      min-width:370px;
+    }
+  }
+}
+
+//-------------------------------- @media 1024px
+@media screen and (min-width:1024px) {
+  
+}
+//-------------------------------- @media 480px
+@media screen and (max-width:480px) {
+  .ipnut {
+    width:370px;
+  }
+}

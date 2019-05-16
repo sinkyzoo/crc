@@ -1,0 +1,82 @@
+// output:single.css,compress:true
+// koiwacrc.net
+// shinjou inc.
+@blue:#004986;
+@gray:#ebece6;
+
+div.header {
+  height:50vh;
+  background:url(../imgs/cnts_header.jpg) center/cover no-repeat;
+  overflow: hidden;
+ 
+  div.headerBg {
+    display: flex;
+
+    .header_logo {
+      width:50%;
+      text-align:left;
+      img {
+        margin-top:1px;
+        width:370px;
+      }
+    }
+    .header_menu {
+      padding-top:1rem;
+      width:50%;
+    }
+  }
+}
+.article {
+  transition:opacity 1s;
+}
+div.article {
+  padding-bottom:1rem;
+  div.inner {
+    width:95%;
+    margin:0 auto;
+    text-align: left;
+    line-height:2rem;
+    h3 {
+      padding-bottom:1rem;
+    }
+    img {
+      width:95%;
+      height:auto;
+      min-width:360px;
+    }
+  }
+  ul {
+    list-style-type: none;
+    height:20px;
+    
+    li {
+      display: inline;
+      background:#bf0606;
+      color:#fff;
+      width:80px;
+      font-size:.9rem;
+      padding:2px;
+    }
+  }
+  span.date {
+    font-size:.9rem;
+  }
+}
+
+div.footer {
+  background:@blue;
+  background-attachment:local;
+  height:250px;
+  width:100%;
+  text-align:center;
+  
+  div.footerbox {
+    font-size:.8em;
+    padding-top:3em;
+    width:100%;
+    img {
+      width:60%;
+      min-width:370px;
+    }    
+  }
+}

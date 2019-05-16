@@ -1,0 +1,60 @@
+// output:404.css,compress:true
+@blue:#004986;
+@gray:#ebece6;
+div.header {
+  background:url(../imgs/404_header.jpg) center/cover no-repeat;
+  height:50vh;
+  overflow: hidden;
+  div.headerBg {
+    display: flex;
+  
+    .header_logo {
+      width:50%;
+      text-align:left;
+      img {
+        margin-top:1px;
+        width:370px;
+      }
+    }
+    .header_menu {
+      padding-top:1rem;
+      width:50%;
+    }
+  }
+}
+.article1 {
+  h1{
+    font-family:'Parisienne',cursive;
+    font-size:2rem;
+    margin:2rem auto 2rem auto;
+    font-size:3rem;
+  }
+}
+div.footer {
+  background:@blue;
+  background-attachment:local;
+  height:250px;
+  width:100%;
+  text-align:center;
+  
+  div.footerbox {
+    font-size:.8em;
+    padding-top:3em;
+    width:100%;
+    img {
+      width:60%;
+      min-width:370px;
+    }
+  }
+}
+
+//-------------------------------- @media 1024px
+@media screen and (min-width:1024px) {
+  
+}
+//-------------------------------- @media 480px
+@media screen and (max-width:480px) {
+  .ipnut {
+    width:370px;
+  }
+}
